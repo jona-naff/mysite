@@ -1,0 +1,14 @@
+{% extends 'layouts/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<h1>{{ title }}</h1>
+
+<img src="{% static 'b-zha.jpg' %}" alt="" width="80">
+
+<p>{% lorem 1 random %}</p>
+
+{%  endblock %}
+
